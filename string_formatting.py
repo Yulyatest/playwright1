@@ -18,3 +18,6 @@ print(phrase)
 phrase = "Hello, {}. Today is {}"
 formatted = phrase.format("Dick", "Friday")
 print(formatted)
+
+formatted = phrase.format("Joe", "test")
+print(formatted)
